@@ -141,14 +141,18 @@ header .image::before{
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #1d4ed8;
+    color: #002faf;
     opacity: 0.2;
     z-index: -100;
 }
 
 header .image img{
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
+}
+
+.image{
+    border-radius: 20px;
 }
 
 section .header{
@@ -372,6 +376,16 @@ footer .column > a:hover{
     .features{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .pricing{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer{
+        grid-template-columns: 1fr 200px;   
+    }
 }
+
+
 
 
